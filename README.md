@@ -3,7 +3,8 @@ There are 2 options, option1 is using yaml file & option2 is without using yaml 
 
 1. Option1 - Using YAML File
    - Step1: Create a new project in ADO then Click on Project
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/0ec3b6b7-748f-4d0a-80bf-762e24728afb)
+    <img width="1917" height="922" alt="image" src="https://github.com/user-attachments/assets/b2320862-5d23-4e6c-858c-11ffe57fec5c" />
+
 
    - Step2: Click on Repos & Let's create new repository, Click on New reposiotry
      ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/fe0485c8-2708-456b-9030-a046b1170c70)
