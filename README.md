@@ -14,22 +14,22 @@ There are 2 options, option1 is using yaml file & option2 is without using yaml 
 
    - Step4: Click on Clone button and get the URL. Go to your system then clone repository.
    - Step5: Add all the playwright framework folders inside cloned repository
-    
+   <img width="1217" height="830" alt="image" src="https://github.com/user-attachments/assets/3f8f1eb5-1107-4454-88b8-34e0c86ab6f2" />
 
    - Step6: Push all the folders into Azure devops
-    
+    <img width="1897" height="867" alt="image" src="https://github.com/user-attachments/assets/2f24168c-2131-4db6-9340-656a335ea771" />
 
    - Step7: Repository is ready now, let's create pipeline. Click on Pipelines->Create Pipeline
-  
+     <img width="1912" height="872" alt="image" src="https://github.com/user-attachments/assets/1a8251a0-ae05-4dc3-982f-b4666850b639" />
 
    - Step8: Click on Azure Repos Git
-  
+     <img width="1917" height="855" alt="image" src="https://github.com/user-attachments/assets/ab2f67eb-1ceb-49a5-9303-68431ef35490" />
 
    - Step9: Select previously created repository
-  
+     <img width="1915" height="952" alt="image" src="https://github.com/user-attachments/assets/3d7f31cc-f08f-42dd-ab87-2fcb6fd3e2dc" />
 
    - Step10: Select Starter Pipeline
-    
+    <img width="1912" height="961" alt="image" src="https://github.com/user-attachments/assets/4af62100-c5a1-46f3-b060-2b25cb467163" />
 
    - Step11: Copy below yaml content and paste it inside azure-pipelines.yml file. 
 ```
@@ -61,14 +61,15 @@ pool:
    - agent.name -equals AgentName
 ```
    - Step12: Click on Save and run
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/208f9b43-735a-45e1-b5c3-699df9e6d8f2)
-    ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/41262f5d-6e80-4274-a4fc-75d0536e73a7)
+    <img width="1912" height="917" alt="image" src="https://github.com/user-attachments/assets/9e86df05-4dae-4c51-8b27-b104433201dc" />
 
    - Step13: You will see job queued like this.
-   - ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/1fff0860-2ac5-45b0-aa45-757afb76777e)
+     <img width="1917" height="922" alt="image" src="https://github.com/user-attachments/assets/9de16931-7c87-4c20-ad66-a3c528120c82" />
+
 
    - Step14: Click on Job & Verify build status.
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/66326c8f-d789-4856-b90c-8909bef95930)
+     <img width="1917" height="632" alt="image" src="https://github.com/user-attachments/assets/feed8ed2-8de2-4812-ba52-a4dfc8f4aa9d" />
+
 
    - Step15: Now let's Upload playwright-report folder with Azure Pipelines & Report generation
      Firstly update azure-pipelines.yml file
