@@ -71,6 +71,7 @@ pool:
    - Step14: Click on Job & Verify build status.
      <img width="1917" height="632" alt="image" src="https://github.com/user-attachments/assets/feed8ed2-8de2-4812-ba52-a4dfc8f4aa9d" />
 
+      <img width="1912" height="912" alt="image" src="https://github.com/user-attachments/assets/4b4b726d-d7e4-46f1-896a-a805c64b7c1c" />
 
    - Step15: Now let's Upload playwright-report folder with Azure Pipelines & Report generation
      Firstly update azure-pipelines.yml file
