@@ -74,6 +74,9 @@ pool:
       <img width="1912" height="912" alt="image" src="https://github.com/user-attachments/assets/4b4b726d-d7e4-46f1-896a-a805c64b7c1c" />
 
    - Step15: Now let's Upload playwright-report folder with Azure Pipelines & Report generation
+     <img width="1907" height="917" alt="image" src="https://github.com/user-attachments/assets/0f8aee0a-d589-4f4d-a93b-bc1bd6a1f2bd" />
+      <img width="1912" height="865" alt="image" src="https://github.com/user-attachments/assets/c9ef493a-a308-4b45-91ee-59449f63cf29" />
+
      Firstly update azure-pipelines.yml file
 ```
 trigger:
