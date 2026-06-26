@@ -124,63 +124,50 @@ steps:
 2. Option2 - Without using YAML File
    - Step1: Repeat step 1 to 6 above from Option1
    - Step2: Click on Pipelines then click on New Pipeline
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/1f753af4-881e-495d-a7dd-8c9163de97ff)
-
    - Step3: Click on Use the classic editor & Click on Continue
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/499f6cf4-0458-4aba-813a-ad131cea4b02)
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/332011f7-0ae4-46ce-a9c2-3c2a9d66f599)
+      <img width="1005" height="600" alt="image" src="https://github.com/user-attachments/assets/7f76279a-d445-4b50-a48e-dfb1f376bb34" />
 
    - Step4: Click on Emtpy job
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/d84dda85-cbc0-4c9f-9147-bc1de36823c4)
+      <img width="674" height="605" alt="image" src="https://github.com/user-attachments/assets/52eb82a1-382c-44da-b982-90f394600f5a" />
 
    - Step5: Click on + icon, Search for Node and add Node.js tool installer
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/73d32c4d-2cd1-4f78-beb7-ec1bf5f5138a)
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/64fcf35f-1200-4ccf-b34c-d53072728ced)
-
-
    - Step6: Select just now added task and add Node v16 becuase playwright supports for Node v14 and above
-   - ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/aa804427-464c-434f-b4e4-27547b245bd9)
-
+     <img width="650" height="331" alt="image" src="https://github.com/user-attachments/assets/d657fd55-1cda-4e9f-a854-d0156b083c1f" />
+     
    - Step7: Click on + icon, Similary add Command line task,
      Display name: Install Playwright & Dependencies
      Script: npm install && npx playwright install
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/df63a628-ccb4-4709-8c2a-166358dc5264)
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/70991c9e-ad21-4ab8-978e-ba02d0f5971f)
+      <img width="1108" height="536" alt="image" src="https://github.com/user-attachments/assets/8763db4a-4008-462a-85c4-b88f959c7045" />
+
+      <img width="645" height="462" alt="image" src="https://github.com/user-attachments/assets/82eb439b-2c57-4671-83f2-665291bb06f8" />
 
      Click on Advanced-> Click on little icon(i) & select the Link. This will enable working directory for the task.
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/1d6dc42d-e720-4446-b1f7-4589f105ff04)
+      <img width="440" height="367" alt="image" src="https://github.com/user-attachments/assets/3215f9d2-f41d-4e85-9f45-8a706af1a130" />
 
    - Step8: Add another task by clicking on + icon, search for npm & Add npm
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/49eadf73-d640-4c7d-8ea6-730f2291d503)
+     <img width="628" height="270" alt="image" src="https://github.com/user-attachments/assets/2fe6c450-18ad-45e8-bbc6-a3f228f0d369" />
 
      Enter Display name, Select Command as custom & Enter Command and Arguments as run tests
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/f055ace0-8cdb-46e7-9f24-33c808eef4ee)
+       <img width="635" height="494" alt="image" src="https://github.com/user-attachments/assets/4722e181-f8d8-45ef-9d37-d0e313c1cfd2" />
 
-     In this task we are referring to the package.json file.
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/6074a566-6efb-46a7-ad37-2108eed90bf8)
+       In this task we are referring to the package.json file.
 
    - Step9: Once everthing is completed now it is a time run script. Click on Save & queue.
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/112334f9-6adb-43a5-b2d4-41f364c7527d)
-
+      <img width="503" height="401" alt="image" src="https://github.com/user-attachments/assets/019aca36-b84c-4c74-98de-188ebb579ce8" />
     Add commit message then click save & run.
    
-   - Step10: It looks like this
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/ae48637e-d0bf-4a32-8d93-2ea251301068)
+   - Step10:Click on Job and you will see a screen like this
+    <img width="701" height="422" alt="image" src="https://github.com/user-attachments/assets/b4e115c0-af01-40ac-bbf1-9205db4b8800" />
 
-     Click on Job and you will see a screen like this
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/b135a6c0-039c-4b90-934c-849b35e47cbc)
 
    - Step11: We can also upload playwright-report using Publish Pipeline Artifacts task
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/138a4af7-addd-4498-8296-64468c957610)
+     <img width="1089" height="524" alt="image" src="https://github.com/user-attachments/assets/52ed35de-d295-45ac-9463-7c8480f79467" />
 
    - Step12: Let's Publish Test Results using Publish Test Results task
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/f0ea2efe-3509-4e48-baa5-01a2ec9f283d)
-
+      <img width="1102" height="596" alt="image" src="https://github.com/user-attachments/assets/7d76cf77-a190-4379-a1c4-58484e376d55" />
 
    - Let's run the pipeline
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/575518de-feed-4267-b7f1-290e4ad76903)
 
    - Artifacts are published & also we have published test results
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/d575766a-2f20-42f2-a1e3-aa5f71259823)
+    <img width="1040" height="360" alt="image" src="https://github.com/user-attachments/assets/a8ae9318-4192-4cf6-8da2-57cc442fcbf6" />
 
-     ![image](https://github.com/BakkappaN/PlaywrightTutorialFullCourse/assets/22426896/45821475-feb2-4b16-a9ae-126c55cf20a1)
