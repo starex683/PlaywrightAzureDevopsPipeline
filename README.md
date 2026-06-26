@@ -128,6 +128,7 @@ steps:
       <img width="1005" height="600" alt="image" src="https://github.com/user-attachments/assets/7f76279a-d445-4b50-a48e-dfb1f376bb34" />
 
    - Step4: Click on Emtpy job
+     
       <img width="674" height="605" alt="image" src="https://github.com/user-attachments/assets/52eb82a1-382c-44da-b982-90f394600f5a" />
 
    - Step5: Click on + icon, Search for Node and add Node.js tool installer
