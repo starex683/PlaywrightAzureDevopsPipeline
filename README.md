@@ -30,6 +30,7 @@ There are 2 options, option1 is using yaml file & option2 is without using yaml 
 
    - Step10: Select Starter Pipeline
     <img width="1912" height="961" alt="image" src="https://github.com/user-attachments/assets/4af62100-c5a1-46f3-b060-2b25cb467163" />
+    
 
    - Step11: Copy below yaml content and paste it inside azure-pipelines.yml file. 
 ```
